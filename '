@@ -1,0 +1,10 @@
+{
+	articles: {
+		'1' : {
+			Title: 'test1',
+			Description : '只能选取本地PicUrl,如果是远端则mediaid',
+			PicUrl : '',
+			Url : 'http://wx.lifestyles.com.cn/test.html',
+		}
+	}
+}
