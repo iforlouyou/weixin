@@ -1,0 +1,24 @@
+{
+	"button": [
+		{
+			"name": "菜单",
+			"sub_button": [
+			{
+				"type": "view",
+				"name": "菜单1",
+				"url": "http://wx.lifestyles.com.cn/"
+			},
+			{
+				"type": "view",
+				"name": "菜单2",
+				"url": "http://wx.lifestyles.com.cn/index1.html"
+			}
+			]
+		},
+		{
+			"name": "点击",
+			"type": "click",
+			"key": "click_key"
+		}
+	]
+}

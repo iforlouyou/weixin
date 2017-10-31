@@ -1,0 +1,10 @@
+{
+	"news" : {
+		"test1" : {
+			"title": "test1",
+			"description" : "只能选取本地PicUrl,如果是远端则mediaid",
+			"picUrl" : "http://wx.lifestyles.com.cn/images/1.png",
+			"url" : "http://wx.lifestyles.com.cn/test.html"
+			}
+	}
+}
