@@ -11,8 +11,15 @@ var http = require('http');
 /**
  * Get port from environment and store in Express.
  */
-
-var port = normalizePort(process.env.PORT || '80');
+var port;
+if(process.argv.length>3){
+	port = process.argv.slice(4);
+}
+if(port) {
+	port = process.argv.slice(4);
+}else {
+	port = normalizePort(process.env.PORT || '2000' );
+}
 app.set('port', port);
 
 /**
@@ -88,3 +95,4 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
 }
+module.exports = server;
